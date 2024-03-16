@@ -10,14 +10,14 @@ const Header = (): ReactElement => {
 
   return (
     <header className="header">
-      <a href="#" className="logo">{portfolio}</a>
+      <a href="#portfolio" className="logo">{portfolio}</a>
       <FaBars id="menu-icon" />
       <nav className="navbar">
         <a href="#home" className="active">{home}</a>
         <a href="#about">{about}</a>
         <a href="#achievements">{achievements}</a>
         <a href="#portfolio">{portfolio}</a>
-        <a href="#portfolio">{skills}</a>
+        <a href="#skills">{skills}</a>
         <a href="#contact">{contact}</a>
       </nav>
     </header>

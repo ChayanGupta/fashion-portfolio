@@ -22,7 +22,7 @@ const Home = (): ReactElement => {
           <a href="#"><FaInstagram /></a>
           <a href="#"><FaLinkedin /></a>
         </div>
-        <a href="#" className="btn">Download CV</a>
+        <a href="resume.pdf" download="resume_shivani-gupta" className='btn'>Download CV</a>
       </div>
       <div className='home-img'>
         <img src={MainImage} alt="main-image" />
