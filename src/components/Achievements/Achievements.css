@@ -1,0 +1,36 @@
+.achievements div:first-child{
+    text-align: center;
+    font-size: 2.6rem;
+    text-decoration: underline;
+}
+
+.achivements-body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4vw;
+}
+
+.carousel-container{
+    width: 45vw;
+}
+
+.image-div img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.image-div img {
+    height: 70vh;
+    width: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+}
+
+.achievements-list{
+    font-size: x-large;
+}
+
+.achievements-list ul li {
+    line-height: 3.5rem;
+}
