@@ -6,7 +6,7 @@ import headerContent from '../../mocks/content/header-content.json'
 const Header = (): ReactElement => {
 
   const content = headerContent.data;
-  const { about, contact, home, portfolio, services } = content;
+  const { about, contact, home, portfolio, achievements, skills } = content;
 
   return (
     <header className="header">
@@ -15,8 +15,9 @@ const Header = (): ReactElement => {
       <nav className="navbar">
         <a href="#home" className="active">{home}</a>
         <a href="#about">{about}</a>
-        <a href="#services">{services}</a>
+        <a href="#achievements">{achievements}</a>
         <a href="#portfolio">{portfolio}</a>
+        <a href="#portfolio">{skills}</a>
         <a href="#contact">{contact}</a>
       </nav>
     </header>

@@ -2,8 +2,9 @@
     "data": {
         "home": "Home",
         "about": "About",
-        "services": "Services",
+        "achievements": "Achievements",
         "portfolio": "Portfolio",
+        "skills": "Skills",
         "contact": "Contact"
     }
 }
